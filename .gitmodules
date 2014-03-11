@@ -1,0 +1,39 @@
+[submodule "EMBACore"]
+	path = EMBACore
+	url = https://github.com/jungfengpaulwang/EMBACore
+[submodule "Agent"]
+	path = Agent
+	url = https://github.com/jungfengpaulwang/EMBAAgent
+[submodule "BrowserWrapper"]
+	path = BrowserWrapper
+	url = https://github.com/jungfengpaulwang/EMBABrowserWrapper
+[submodule "Tagging"]
+	path = Tagging
+	url = https://github.com/jungfengpaulwang/EMBATagging
+[submodule "Teacher_UserDefineData"]
+	path = Teacher_UserDefineData
+	url = https://github.com/jungfengpaulwang/EMBATeacher_UserDefineData
+[submodule "Student_UserDefineData"]
+	path = Student_UserDefineData
+	url = https://github.com/jungfengpaulwang/EMBAStudent_UserDefineData
+[submodule "UIOrder"]
+	path = UIOrder
+	url = https://github.com/jungfengpaulwang/EMBAUIOrder
+[submodule "UDTDetailContentBase"]
+	path = UDTDetailContentBase
+	url = https://github.com/jungfengpaulwang/EMBAUDTDetailContentBase
+[submodule "TeachingEvaluation"]
+	path = TeachingEvaluation
+	url = https://github.com/jungfengpaulwang/EMBATeachingEvaluation
+[submodule "Mandrill"]
+	path = Mandrill
+	url = https://github.com/jungfengpaulwang/EMBAMandrill
+[submodule "GoogleDrive"]
+	path = GoogleDrive
+	url = https://github.com/jungfengpaulwang/EMBAGoogleDrive
+[submodule "EMBA.Export"]
+	path = EMBA.Export
+	url = https://github.com/jungfengpaulwang/EMBAExport
+[submodule "EMBA.Import"]
+	path = EMBA.Import
+	url = https://github.com/jungfengpaulwang/EMBAImport
