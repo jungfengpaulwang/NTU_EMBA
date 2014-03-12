@@ -37,3 +37,21 @@
 [submodule "EMBA.Import"]
 	path = EMBA.Import
 	url = https://github.com/jungfengpaulwang/EMBAImport
+[submodule "EMBA.Validator"]
+	path = EMBA.Validator
+	url = https://github.com/jungfengpaulwang/EMBAValidator
+[submodule "EMBA.DocumentValidator"]
+	path = EMBA.DocumentValidator
+	url = https://github.com/jungfengpaulwang/EMBADocumentValidator
+[submodule "CourseCalender"]
+	path = CourseCalender
+	url = https://github.com/jungfengpaulwang/EMBACourseCalender
+[submodule "CaseManagement"]
+	path = CaseManagement
+	url = https://github.com/jungfengpaulwang/EMBACaseManagement
+[submodule "CourseSelection"]
+	path = CourseSelection
+	url = https://github.com/jungfengpaulwang/EMBACourseSelection
+[submodule "ReportHelper"]
+	path = ReportHelper
+	url = https://github.com/jungfengpaulwang/EMBAReportHelper
