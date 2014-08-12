@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph DataVirtualized="True" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(@1 Namespace=Agent Type=Export)" Category="CodeSchema_Class" Bounds="0,0,97.3766666666667,25" CodeSchemaProperty_IsPublic="True" CommonLabel="Export" DelayedChildNodesState="NotFetched" Group="Collapsed" Icon="Microsoft.VisualStudio.Class.Public" Label="Export" Language="{B5E9BD34-6D3E-4B5D-925E-8A43B79820B4}" SourceLocation="(Assembly=file:///E:/github/NTU_EMBA/Agent/Agent.cs StartLineNumber=7 StartCharacterOffset=4 EndLineNumber=7 EndCharacterOffset=4)" />
+    <Node Id="559073b5-2891-434d-8bba-68016a994e371" Category="Comment" Bounds="44.750893659406,-67.37005,68,25.24" Label="新增註解" UseManualLocation="True" />
+    <Node Id="a6f42b0c-afec-42c1-b4e2-17f4d22239831" Bounds="50.7491063405939,27.87005,56,25.24" Label="新節點" />
+    <Node Id="a747a7ec-5e3b-404f-9035-530a452030f81" Bounds="243.5,30.5,56,25.24" Label="新節點" UseManualLocation="True" />
+    <Node Id="b323a4a2-afae-44cb-8376-ca07aa966e3a" Bounds="30.7491063405939,-12.12995,96,85.24" Group="Expanded" Label="新增群組" />
+  </Nodes>
+  <Links>
+    <Link Source="559073b5-2891-434d-8bba-68016a994e371" Target="a6f42b0c-afec-42c1-b4e2-17f4d22239831" Bounds="78.7495120708708,-42.13010000005,0.00114475615347942,61.0002000015848" />
+    <Link Source="a6f42b0c-afec-42c1-b4e2-17f4d22239831" Target="a747a7ec-5e3b-404f-9035-530a452030f81" Bounds="106.74910736084,40.8720905240642,127.751730272517,1.74308205829121" />
+    <Link Source="b323a4a2-afae-44cb-8376-ca07aa966e3a" Target="a6f42b0c-afec-42c1-b4e2-17f4d22239831" Category="Contains" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Class" Label="類別" BasedOn="CodeSchema_Type" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="類別" />
+    <Category Id="CodeSchema_Type" Label="類型" CanBeDataDriven="True" DefaultAction="Node:Both:CodeSchema_Member" Icon="CodeSchema_Class" NavigationActionLabel="類型" />
+    <Category Id="Comment" Label="註解" Description="表示圖表上的使用者定義註解" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="註解" />
+    <Category Id="Contains" Label="包含" Description="連結的來源是否包含目標物件" CanBeDataDriven="False" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="由下列包含" IsContainment="True" OutgoingActionLabel="包含" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CodeSchemaProperty_IsPublic" Label="為公用" Description="表示範圍為「公用」的旗標" DataType="System.Boolean" />
+    <Property Id="CommonLabel" DataType="System.String" />
+    <Property Id="DataVirtualized" Label="虛擬化資料" Description="如果為 true，就表示圖形可以包含代表虛擬化節點/連結 (亦即，實際上並未在圖形中建立) 之資料的節點和連結。" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="DelayedChildNodesState" Label="延遲子節點狀態" Description="如果未指定延遲子節點狀態，則為 Unspecified。如果群組包含的子節點尚未擷取至圖形，則為 NotFetched。如果群組的所有延遲子節點己擷取，則為 Fetched。" DataType="Microsoft.VisualStudio.GraphModel.DelayedDataState" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="Group" Label="群組" Description="將節點顯示為群組" DataType="Microsoft.VisualStudio.GraphModel.GraphGroupStyle" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsContainment" DataType="System.Boolean" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="Label" Label="標籤" Description="可註釋物件的可顯示標籤" DataType="System.String" />
+    <Property Id="Language" Label="語言" Description="語言" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="SourceLocation" Label="開始行號" DataType="Microsoft.VisualStudio.GraphModel.CodeSchema.SourceLocation" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+  </Properties>
+  <QualifiedNames>
+    <Name Id="Assembly" Label="組件" ValueType="Uri" />
+    <Name Id="Namespace" Label="命名空間" ValueType="System.String" />
+    <Name Id="Type" Label="類型" ValueType="System.Object" />
+  </QualifiedNames>
+  <IdentifierAliases>
+    <Alias n="1" Uri="Assembly=$(9aebd730-a5db-4194-bc0c-2d0ac37f536f.OutputPathUri)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="註解" ValueLabel="有註解">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+  <Paths>
+    <Path Id="9aebd730-a5db-4194-bc0c-2d0ac37f536f.OutputPathUri" Value="file:///E:/github/NTU_EMBA/Agent/bin/Debug/Agent.dll" />
+  </Paths>
+</DirectedGraph>

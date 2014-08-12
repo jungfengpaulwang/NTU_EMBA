@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="30d315b8-b407-43c5-b999-bc55fb27fec1" name="UMLUseCaseDiagram1" linkedPackageId="dca93bbd-28c0-45fd-9ab9-dd36f70d9e78" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="7b3205c6-48f0-487c-8a58-bd115c0d4311" name="校友" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="67bc7452-29c8-49fc-87a1-b9c0664a7c1c" />
+        <targetEnds>
+          <association Id="4c8b45ab-394b-45f6-b325-86d96844bf6c" isDerived="false" sourceEndRoleName="校友" targetEndRoleName="UseCase1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d6a622ab-6385-4117-b056-4e8d4f76604b" LastKnownName="選課" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ee18f950-9fe3-4fd3-b2d2-065a5cdd6fac" name="校友" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="909fb1bd-f639-4b11-bdb7-c173a783f809" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="da70ae80-edbc-475e-98bb-0cdcd66f387b" name="UseCase1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9ef3ca25-e600-4163-b6e4-dfbf02a037d0" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5498c38f-c2a1-4b01-aa58-38f3453c98ef" />
+          </association>
+          <association Id="34fb5dd8-e1dd-42e6-8962-9c5f164fb7fd" isDerived="false" sourceEndRoleName="校友" targetEndRoleName="UseCase1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="3a305c25-6180-4fe2-a7de-23cc1f835492" LastKnownName="評鑑" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f5fd05d5-75a2-4c5b-9d5e-1933948915c5" name="校友" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="134f6b7e-7184-4968-af72-24fa61c4135a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="eb3fa5f6-c03c-49d5-b46b-9cdd69938b30" name="UseCase1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="51c345ea-861c-45bc-96c9-fb47cf2a85bb" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b0f6ed89-3543-41bb-9609-4d6190fc7b93" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="3d43fae5-3031-4708-8b3e-c295fbc715c1" name="台北教務組" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="445a41bf-5178-4a0f-bf05-109fbaacbf9a" />
+        <targetEnds>
+          <association Id="d8ed3d54-7c7f-4173-a47f-87d0d975b333" isDerived="false" sourceEndRoleName="課務組" targetEndRoleName="UseCase1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="93f9e1d0-141f-4549-9210-755660722e98" LastKnownName="設定課程開放資訊" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e07cd3ea-cd11-4547-89e3-ca54a544c844" name="課務組" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="aa6db21a-f237-47d0-85ab-7fe8acccb0d4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c5ae014b-43d6-492a-9829-87f34e2ce5cb" name="UseCase1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f8965d8d-277a-4f26-a58e-d36e8d266d80" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="436029a3-803b-4932-b21e-c74f599d5526" />
+          </association>
+          <association Id="b380e656-68ea-44bf-b283-09f3a9c4f778" isDerived="false" sourceEndRoleName="課務組" targetEndRoleName="列印點名單" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1cc982c3-c7b0-40cb-94ca-f3494690ff5f" LastKnownName="列印點名單" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="307f3e39-a27f-4d63-a3c6-6457dd3dbd8e" name="課務組" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e399e52f-2e4c-4dd8-a1cd-04b49347a2d2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="40113e5d-1fa9-42c4-9ad8-1cf056704191" name="列印點名單" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="995b1089-c7d5-4599-9ff1-b3b1768d8a77" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="77f3c49e-4bc8-4c17-a5b5-9dfd0fab06e2" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="15330ec6-f334-4fab-89ff-e6c8129e4d19" name="對外關系組" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="34c9f72a-47d0-44d8-b526-48a8c6e727d3" />
+        <targetEnds>
+          <association Id="2ed8b1a8-d37d-4a9b-8b6c-22f4fafbc072" isDerived="false" sourceEndRoleName="對外關係組" targetEndRoleName="調整選課名單" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1d1cbc07-3259-4b87-932c-13bd0d539862" LastKnownName="調整選課名單" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="871205cc-4ca2-45db-9159-3519f9150fad" name="對外關係組" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ebb515e2-fb11-4aee-bda8-8416e16fa215" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9b9c9be5-e311-4439-89fe-4ca6717dc94d" name="調整選課名單" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="0a8bed34-f94a-4c7d-9def-5b2379be3b14" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="10a5f769-f321-4978-8559-2d2345845d2a" />
+          </association>
+          <association Id="de8caea1-c706-441d-ab67-bded5aa89ac7" isDerived="false" sourceEndRoleName="對外關係組" targetEndRoleName="輸入缺課記錄" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="fed886ba-dbb5-45b1-a700-66adb68e9204" LastKnownName="輸入缺課記錄" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0d5e841b-889f-4b21-8e8f-13af1ea70181" name="對外關係組" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="ddf6b3be-ce8c-40b5-9e00-a085613e18b4" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="e3f3b557-6772-4d2e-b53c-18a1d01bd034" name="輸入缺課記錄" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f9a853cf-5a48-4005-9be0-9308ad4d7b0e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="2e795aee-0eef-4840-a3e0-0a042b53978a" />
+          </association>
+          <association Id="e5378c6f-2209-47ce-a434-a69f40fd19cf" isDerived="false" sourceEndRoleName="對外關係組" targetEndRoleName="UseCase1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b63f4196-c8ed-4968-80b6-26d86c89df4b" LastKnownName="缺課通知" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5c9bba12-d669-489d-b317-587642d5c307" name="對外關係組" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0961b2f0-d65b-4732-8f17-079fc73f303e" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="bf613c94-732a-4560-9f59-81865412d396" name="UseCase1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="c4f3aee6-be83-4682-8ac6-55689fb51cb8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8ef2caf3-2f6e-4ff9-90af-ce619e83db1a" />
+          </association>
+          <association Id="4a4a9100-fe23-4cb3-91c8-d9d883b5f788" isDerived="false" sourceEndRoleName="對外關係組" targetEndRoleName="UseCase1" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="58908fcf-805b-4b3a-8862-79644f68be55" LastKnownName="統計評鑑值" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="37ecc075-96be-40ea-aa49-a7f1a72bb351" name="對外關係組" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="12541e45-9bdb-46d8-882c-c2b3aa367c38" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="11efaf9b-3fa4-49ca-9b4a-521494f0e17d" name="UseCase1" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="4befc7d0-ffb3-42c1-89d6-894c0e4a29f8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="81760405-ff2d-4d0f-a0e2-4065b4da0722" />
+          </association>
+          <association Id="23852bde-64f6-4364-9609-e01494f7f085" isDerived="false" sourceEndRoleName="對外關係組" targetEndRoleName="UseCase2" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="1d89fe00-a4de-4367-9605-cbd7b65c7b0e" LastKnownName="列印評鑑統計報表" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a54be952-11b0-4128-8b16-7f8815d7fb0c" name="對外關係組" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="051423ad-8d73-4e83-9e09-5baa9e71ee0a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="0272bf66-ae6f-419b-b267-c0f04af75f58" name="UseCase2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="48f11e28-a7e2-45c4-9c02-1b2293f0c94f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9faab95d-f1f7-42cf-af1f-29e358559bb1" />
+          </association>
+          <association Id="aebf699d-ec5c-44b3-bd35-0695170fe60c" isDerived="false" sourceEndRoleName="對外關係組" targetEndRoleName="UseCase2" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="e445305b-e11d-4589-95ec-9d3f28dd96db" LastKnownName="設定選課開放時間" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d760e4d6-67f8-4be7-beba-42e4b046b92f" name="對外關係組" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="58f9f016-eccb-43df-ab55-14437a50cc98" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="7cc25097-f7f1-4baa-86c7-df64779d833b" name="UseCase2" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1094ec2e-e900-4751-950a-91aac340e9a8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="25a8d11e-80eb-41a6-b9f5-903d80efe1f0" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="854cb494-bfc4-4237-bd6d-21efd8f1baca" name="開放保障名額給校友選課" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="6eae866a-6d0a-4baa-a32c-6606f8c13ce1" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="93f9e1d0-141f-4549-9210-755660722e98" name="設定課程開放資訊" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="867f9131-8444-4c48-868b-f811cc220346" />
+        <subjects>
+          <subsystemMoniker Id="854cb494-bfc4-4237-bd6d-21efd8f1baca" LastKnownName="開放保障名額給校友選課" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d6a622ab-6385-4117-b056-4e8d4f76604b" name="選課" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="eba0b16c-ad3d-4bd5-bbe0-fd6d2c61d497" />
+        <subjects>
+          <subsystemMoniker Id="854cb494-bfc4-4237-bd6d-21efd8f1baca" LastKnownName="開放保障名額給校友選課" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="1d1cbc07-3259-4b87-932c-13bd0d539862" name="調整選課名單" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ff729b7f-c599-4081-ad7f-41e669f948b4" />
+        <subjects>
+          <subsystemMoniker Id="854cb494-bfc4-4237-bd6d-21efd8f1baca" LastKnownName="開放保障名額給校友選課" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="fed886ba-dbb5-45b1-a700-66adb68e9204" name="輸入缺課記錄" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ac152152-7b2a-4e89-a4e3-ee650bda5b65" />
+        <subjects>
+          <subsystemMoniker Id="854cb494-bfc4-4237-bd6d-21efd8f1baca" LastKnownName="開放保障名額給校友選課" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="b63f4196-c8ed-4968-80b6-26d86c89df4b" name="缺課通知" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1652d97f-fa97-4976-82fd-f63233a96890" />
+        <subjects>
+          <subsystemMoniker Id="854cb494-bfc4-4237-bd6d-21efd8f1baca" LastKnownName="開放保障名額給校友選課" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="3a305c25-6180-4fe2-a7de-23cc1f835492" name="評鑑" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="106812cd-3259-45d4-a8f8-20f42437b243" />
+        <subjects>
+          <subsystemMoniker Id="854cb494-bfc4-4237-bd6d-21efd8f1baca" LastKnownName="開放保障名額給校友選課" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="58908fcf-805b-4b3a-8862-79644f68be55" name="統計評鑑值" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b86114b0-9bef-423a-8e35-3486a316902d" />
+        <subjects>
+          <subsystemMoniker Id="854cb494-bfc4-4237-bd6d-21efd8f1baca" LastKnownName="開放保障名額給校友選課" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="1d89fe00-a4de-4367-9605-cbd7b65c7b0e" name="列印評鑑統計報表" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5ac077d7-67bb-452c-8779-fcf69c2fbd1d" />
+        <subjects>
+          <subsystemMoniker Id="854cb494-bfc4-4237-bd6d-21efd8f1baca" LastKnownName="開放保障名額給校友選課" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e445305b-e11d-4589-95ec-9d3f28dd96db" name="設定選課開放時間" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="558e642b-0177-413a-be9c-6d210ad5d844" />
+        <subjects>
+          <subsystemMoniker Id="854cb494-bfc4-4237-bd6d-21efd8f1baca" LastKnownName="開放保障名額給校友選課" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="1cc982c3-c7b0-40cb-94ca-f3494690ff5f" name="列印點名單" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="22421045-122e-44df-b514-7d206a188e74" />
+        <subjects>
+          <subsystemMoniker Id="854cb494-bfc4-4237-bd6d-21efd8f1baca" LastKnownName="開放保障名額給校友選課" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="dca93bbd-28c0-45fd-9ab9-dd36f70d9e78" name="ModelingProject2">
+    <elementDefinition Id="073e6527-ab62-49d8-bc73-5ade13991343" />
+    <profileInstances>
+      <packageHasProfileInstances Id="931f541c-a6af-4bb0-b16c-f853bcc685bc">
+        <profileInstance Id="ddf25a26-848f-47c2-bd4c-480ce9445ada" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="5d5555f5-bca2-4d74-8e2b-00f950a7687d">
+        <profileInstance Id="18b46439-7960-44ac-af57-a8b6947eff51" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>
